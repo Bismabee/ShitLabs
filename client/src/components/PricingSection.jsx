@@ -20,7 +20,7 @@ export const PricingSection = () => {
                   <li className="flex items-center gap-3 font-bold text-sm"><Check size={18} className="text-gray-400"/> Core Features</li>
                   <li className="flex items-center gap-3 font-bold text-sm"><Check size={18} className="text-gray-400"/> 2 Weeks Delivery</li>
                </ul>
-               <a href="mailto:support@shitlabs.xyz" className="w-full bg-[#EFF0EC] text-[#1E2330] py-4 rounded-[30px] font-bold text-center hover:bg-[#E0E2D9]">Get Started</a>
+               <a href="mailto:shakirarly@gmail.com" className="w-full bg-[#EFF0EC] text-[#1E2330] py-4 rounded-[30px] font-bold text-center hover:bg-[#E0E2D9]">Get Started</a>
             </div>
 
             {/* Pro (Popular) */}
@@ -36,7 +36,7 @@ export const PricingSection = () => {
                   <li className="flex items-center gap-3 font-bold text-sm"><Check size={18} className="text-[#D2E823]"/> Admin Dashboard</li>
                   <li className="flex items-center gap-3 font-bold text-sm"><Check size={18} className="text-[#D2E823]"/> Payment Integration</li>
                </ul>
-               <a href="mailto:support@shitlabs.xyz" className="w-full bg-[#D2E823] text-black py-4 rounded-[30px] font-bold text-center hover:bg-[#c2d61b]">Scale Now</a>
+               <a href="mailto:shakirarly@gmail.com" className="w-full bg-[#D2E823] text-black py-4 rounded-[30px] font-bold text-center hover:bg-[#c2d61b]">Scale Now</a>
             </div>
 
             {/* Enterprise */}
@@ -49,7 +49,7 @@ export const PricingSection = () => {
                   <li className="flex items-center gap-3 font-bold text-sm"><Check size={18} className="text-gray-400"/> Cloud Architecture</li>
                   <li className="flex items-center gap-3 font-bold text-sm"><Check size={18} className="text-gray-400"/> 24/7 SLA Support</li>
                </ul>
-               <a href="mailto:support@shitlabs.xyz" className="w-full bg-[#1E2330] text-white py-4 rounded-[30px] font-bold text-center hover:bg-black">Contact Sales</a>
+               <a href="mailto:shakirarly@gmail.comshitlabs.xyz" className="w-full bg-[#1E2330] text-white py-4 rounded-[30px] font-bold text-center hover:bg-black">Contact Sales</a>
             </div>
          </div>
       </div>

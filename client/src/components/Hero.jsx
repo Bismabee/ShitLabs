@@ -11,7 +11,7 @@ const FloatingBadge = ({ text, top, right, rotate, color }) => (
 
 export const Hero = () => {
   return (
-    <section className="pt-40 pb-20 bg-[#D2E823] min-h-screen flex items-center relative overflow-hidden">
+    <section className="pt-40 pb-20 bg-[#ffde21] min-h-screen flex items-center relative overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative z-10">
         
         <div className="space-y-8 animate-fade-in-up">

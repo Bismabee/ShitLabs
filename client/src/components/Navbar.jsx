@@ -10,6 +10,10 @@ export const Navbar = ({ isMenuOpen, setIsMenuOpen, scrolled, scrollTo }) => {
           
           {/* Logo */}
           <div className="flex items-center gap-1 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+           <div className='navBarLogo'>
+           <img src ="shitLabsLogo.png" alt="ShitLabs Logo" className="m-auto"/>
+           </div>
+            
             <span className="font-black text-2xl tracking-tighter">ShitLabs<span className="text-[#D2E823]">.</span></span>
           </div>
 
@@ -22,8 +26,8 @@ export const Navbar = ({ isMenuOpen, setIsMenuOpen, scrolled, scrollTo }) => {
 
           {/* CTA Buttons */}
           <div className="flex items-center gap-3">
-            <a href="mailto:support@shitlabs.xyz" className="bg-[#1E2330] text-white px-6 py-3 rounded-[30px] font-bold text-sm hover:scale-105 transition-transform">
-              Start Project
+            <a href="mailto:shakirarly@gmail.com" className="bg-[#1E2330] text-white px-6 py-3 rounded-[30px] font-bold text-sm hover:scale-105 transition-transform">
+              Contact Us
             </a>
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden p-2 bg-white rounded-full shadow-sm">
                {isMenuOpen ? <X size={20}/> : <Menu size={20}/>}
@@ -39,7 +43,7 @@ export const Navbar = ({ isMenuOpen, setIsMenuOpen, scrolled, scrollTo }) => {
            <button onClick={() => scrollTo('projects')} className="text-left font-black text-3xl">Services</button>
            <button onClick={() => scrollTo('pricing')} className="text-left font-black text-3xl">Pricing</button>
            <div className="h-px bg-gray-100 w-full my-4"></div>
-           <a href="mailto:support@shitlabs.xyz" className="bg-[#D2E823] text-[#1E2330] w-full py-4 rounded-[30px] font-bold text-lg text-center">Start Project</a>
+           <a href="mailto:shakirarly@gmail.com" className="bg-[#D2E823] text-[#1E2330] w-full py-4 rounded-[30px] font-bold text-lg text-center">Start Project</a>
         </div>
       )}
     </>
